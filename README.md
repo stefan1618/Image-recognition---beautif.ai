@@ -1,2 +1,2 @@
 # Image recognition - beautif.ai
-Image recognition
+Image recognition project
