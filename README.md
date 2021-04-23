@@ -32,6 +32,12 @@ This project includes the following files:
 
 The dataset consists of *5 000 images*, or around 1 000 per category. First, the data are pre-processed by converting the images to *RGB color space*, *image normalization to 0 - 1 range* is applied and  the images are resized to *224x224 pixels*. Next, the dataset is divided into *80% training* and *30% validation data*. Independent dataset of 50 images was provided and processed in the same way in order to test the model. Additionally we used data augmentation while training the models.
 
+[//]: (Image references)
+
+[ROC_Curve]: ROC_curve
+
+
+
 #### Dataset distribution and Train-Test split
 
 | Category |Train set| Validation set|  Total No. of pictures |
@@ -39,6 +45,9 @@ The dataset consists of *5 000 images*, or around 1 000 per category. First, the
 |Indoor selfie| | |1.000|
 |Outdoor selfie| | |1.000|
 |Indoor posing| | |1.000|
+|Outdoor posing|||1.000|
+|Picture without people| | | 1.000|
+|**Total** | | | |
 
 
 ## Best model info
@@ -56,6 +65,10 @@ Create a new model on top of the output from the base model which consists of on
 ## Benchmark
 
 (slika so classification report, CM, ROC curves, Precision/Recall, Hardware)
+
+|ROC curve| Classification report| Confusion Matrix| Precision/Recall| Hardware|
+|---------|----------------------|-----------------|-----------------|---------|
+|![ROC_Curve]| | | | | |
 
 ---
 
