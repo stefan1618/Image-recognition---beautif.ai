@@ -4,7 +4,9 @@
 
 [//]: (Image references)
 
-[ROC_curve]:Documentation/ROC_curve.jpg
+[ROC_curve]:Documentation/ROC_curve.PNG
+[CM]:Documentation/CM.PNG
+[CR]:Documentation/CR.PNG
 
 ## Project description
 This project is primarly created for a use in an application called *Beautif.ai* - Application that is designed to edit and enhance pictures on a mobile device. 
@@ -68,11 +70,9 @@ Create a new model on top of the output from the base model which consists of on
 
 ## Benchmark
 
-(slika so classification report, CM, ROC curves, Precision/Recall, Hardware)
-
-|ROC curve| Classification report| Confusion Matrix| Precision/Recall| Hardware|
-|---------|----------------------|-----------------|-----------------|---------|
-|![ROC_curve]| | | | | |
+|ROC curve| Classification report| Confusion Matrix| 
+|---------|----------------------|-----------------|
+|![ROC_curve]|![CR] |![CM] | 
 
 ---
 
