@@ -1,5 +1,11 @@
 # Image recognition - beautif.ai
 ---
+
+
+[//]: (Image references)
+
+[ROC_curve]:Documentation/ROC_curve.jpg
+
 ## Project description
 This project is primarly created for a use in an application called *Beautif.ai* - Application that is designed to edit and enhance pictures on a mobile device. 
 
@@ -32,9 +38,7 @@ This project includes the following files:
 
 The dataset consists of *5 000 images*, or around 1 000 per category. First, the data are pre-processed by converting the images to *RGB color space*, *image normalization to 0 - 1 range* is applied and  the images are resized to *224x224 pixels*. Next, the dataset is divided into *80% training* and *30% validation data*. Independent dataset of 50 images was provided and processed in the same way in order to test the model. Additionally we used data augmentation while training the models.
 
-[//]: (Image references)
 
-[ROC_Curve]: ROC_curve
 
 
 
@@ -68,7 +72,7 @@ Create a new model on top of the output from the base model which consists of on
 
 |ROC curve| Classification report| Confusion Matrix| Precision/Recall| Hardware|
 |---------|----------------------|-----------------|-----------------|---------|
-|![ROC_Curve]| | | | | |
+|![ROC_curve]| | | | | |
 
 ---
 
