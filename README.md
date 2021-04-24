@@ -5,9 +5,9 @@
 [CR]:Documentation/CR.PNG
 [0]:Documentation/Class0.jpg
 [1]:Documentation/Class1.jpg
-[2]:Documentation/Class2.jpg
-[3]:Documentation/Class3.jpg
-[4]:Documentation/Class4.jpg
+[2]:Documentation/Class2.1.jpg
+[3]:Documentation/Class3.1.jpg
+[4]:Documentation/Class4.1.jpg
 
 
 # Image recognition - beautif.ai
