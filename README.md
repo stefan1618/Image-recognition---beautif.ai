@@ -48,12 +48,12 @@ The dataset consists of *5 000 images*, or around 1 000 per category. First, the
 
 | Category |Train set| Validation set|  Total No. of pictures |
 |-------|---------|---------------|------------------|
-|Indoor selfie| | |1.000|
-|Outdoor selfie| | |1.000|
-|Indoor posing| | |1.000|
-|Outdoor posing|||1.000|
-|Picture without people| | | 1.000|
-|**Total** | | | |
+|Indoor selfie|781 |219 |1.000|
+|Outdoor selfie|803 | 197|1.000|
+|Indoor posing|684 |171 |855|
+|Outdoor posing|817|183|1.000|
+|Picture without people|766 |193 | 959|
+|**Total** |3851 |963 |4814 |
 
 
 ## Best model info
@@ -86,11 +86,11 @@ Below is a table with the results:
 
 |Model| Accuracy|
 |-----|---------|
-|Xception||
-|InceptionV3||
-|ResNet50||
-|VGG16||
-|VGG19||
-|MobileNet||
+|Xception|0.96|
+|InceptionV3|0.93|
+|ResNet50|0.74|
+|VGG16|0.92|
+|VGG19|0.89|
+|MobileNet|0.95|
 
 The project can be further extended to more images, to tune more of the available parameters of the models, try different configurations for the top classifier etc.
