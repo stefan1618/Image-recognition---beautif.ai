@@ -1,3 +1,15 @@
+[//]: # (Image references)
+
+[ROC_curve]:Documentation/ROC_curve.PNG
+[CM]:Documentation/CM.PNG
+[CR]:Documentation/CR.PNG
+[0]:Documentation/Class0.jpg
+[1]:Documentation/Class1.jpg
+[2]:Documentation/Class2.jpg
+[3]:Documentation/Class3.jpg
+[4]:Documentation/Class4.jpg
+
+
 # Image recognition - beautif.ai
 ---
 
@@ -32,11 +44,13 @@ The steps for building this project are the following:
 
 ## File description
 This project includes the following files:
-- requirements.txt - all of project's dependencies
-- Training_Beautif.ipynb - a script for data preprocessing, training and saving the model
-- Predictions_Beautif.ipynb - a script for making the predictions of the used model
-- utils.py - a script that contains all the helper functions
-- README.md - documentation and summary of the results
+```
+- requirements.txt                        - all of project's dependencies
+- Training_Beautif.ipynb                  - a script for data preprocessing, training and saving the model
+- Predictions_Beautif.ipynb               - a script for making the predictions of the used model
+- utils.py                                - a script that contains all the helper functions
+- README.md                               - documentation and summary of the results
+```
 
 ## Dataset info
 
@@ -96,13 +110,4 @@ Below is a table with the results:
 The project can be further extended to more images, to tune more of the available parameters of the models, try different configurations for the top classifier etc.
 
 
-[//]: (Image references)
 
-[ROC_curve]:Documentation/ROC_curve.PNG
-[CM]:Documentation/CM.PNG
-[CR]:Documentation/CR.PNG
-[0]:Documentation/Class0.jpg
-[1]:Documentation/Class1.jpg
-[2]:Documentation/Class2.jpg
-[3]:Documentation/Class3.jpg
-[4]:Documentation/Class4.jpg
