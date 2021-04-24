@@ -10,32 +10,8 @@ import math
 import cv2
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix, classification_report, roc_curve, auc
-from keras.models import load_model, Sequential
-from keras.layers import Dense, Dropout, Flatten
-from keras.optimizers import SGD, Adam
-from keras_preprocessing.image import img_to_array, array_to_img, ImageDataGenerator
-from keras.callbacks import ModelCheckpoint, EarlyStopping
-from keras.utils import np_utils
-from tensorflow.keras.applications import  MobileNet, MobileNetV2
-# Import libraries
-from google.colab import drive
-import os
 import time
-import numpy as np
-import pandas as pd
-import pickle
-import math
-from scipy import interp
-from itertools import cycle
-from sklearn.metrics import confusion_matrix, classification_report, roc_curve, auc, accuracy_score
-import matplotlib.pyplot as plt
-import seaborn as sns
-from keras.models import load_model
-from keras.utils import np_utils
 import urllib.request
-import cv2
 
 
 def concat_dataset(path, img_size = 224):
