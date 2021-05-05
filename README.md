@@ -54,7 +54,7 @@ This project includes the following files:
 
 ## Dataset info
 
-The dataset consists of **5 000 images**, or around 1 000 per category. First, the data are pre-processed by converting the images to **RGB color space**, **image normalization to 0 - 1 range** is applied and  the images are resized to **224x224 pixels**. Next, the dataset is divided into **80% training** and **30% validation data**. Independent dataset of 50 images was provided and processed in the same way in order to test the model. Additionally we used data augmentation while training the models.
+The dataset consists of **5 000 images**, or around 1 000 per category. First, the data are pre-processed by converting the images to **RGB color space**, **image normalization to 0 - 1 range** is applied and  the images are resized to **224x224 pixels**. Next, the dataset is divided into **80% training** and **20% validation data**. Independent dataset of 50 images was provided and processed in the same way in order to test the model. Additionally we used data augmentation while training the models.
 
 
 
